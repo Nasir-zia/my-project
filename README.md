@@ -1,8 +1,3 @@
-# React + Vite
+The Redux Toolkit provides a simplified approach to managing global state in a React application, including handling asynchronous actions like fetching data from an API. To handle API calls, you can use createAsyncThunk, a utility that helps to define an asynchronous action, and createSlice, which manages the slice of state related to the API call.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here’s how you can use Redux Toolkit to fetch data from an API:
